@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nativeproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:5:5-81
+13-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:6:5-8:3
+14-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:7:4-58
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.75.1] C:\Users\leifo\.gradle\caches\transforms-2\files-2.1\e9bb779cf1173551009395f88d453f7d\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.75.1] C:\Users\leifo\.gradle\caches\transforms-2\files-2.1\e9bb779cf1173551009395f88d453f7d\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+16
+17    <application
+17-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:10:5-28:19
+18        android:name="com.nativeproject.MainApplication"
+18-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:11:7-38
+19        android:allowBackup="false"
+19-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:15:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\leifo\.gradle\caches\transforms-2\files-2.1\d3a2e0edcef020d736d022c06e568c32\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:13:7-41
+23        android:label="@string/app_name"
+23-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:12:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:14:7-52
+25        android:theme="@style/AppTheme"
+25-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:16:7-38
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\debug\AndroidManifest.xml:8:9-44
+27        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+27-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\debug\AndroidManifest.xml:11:9-86
+27-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\debug\AndroidManifest.xml:11:19-83
+28        <activity
+28-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:17:7-27:18
+29            android:name="com.nativeproject.MainActivity"
+29-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:18:9-37
+30            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+30-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:20:9-86
+31            android:label="@string/app_name"
+31-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:19:9-41
+32            android:launchMode="singleTask"
+32-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:21:9-40
+33            android:windowSoftInputMode="adjustResize" >
+33-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:22:9-51
+34            <intent-filter>
+34-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:23:9-26:25
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:24:13-65
+35-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:24:21-62
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:25:13-73
+37-->C:\Users\leifo\Desktop\newReactNative\new\nativeProject\android\app\src\main\AndroidManifest.xml:25:23-70
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leifo\.gradle\caches\transforms-2\files-2.1\1587adda2bd2a2889d0adf867ce08576\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+41            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+41-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leifo\.gradle\caches\transforms-2\files-2.1\1587adda2bd2a2889d0adf867ce08576\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+42            android:exported="false"
+42-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leifo\.gradle\caches\transforms-2\files-2.1\1587adda2bd2a2889d0adf867ce08576\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+43-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\leifo\.gradle\caches\transforms-2\files-2.1\1587adda2bd2a2889d0adf867ce08576\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+44
+45        <meta-data
+45-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leifo\.gradle\caches\transforms-2\files-2.1\8981d7a49a9becbb0516b1176e4ba918\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+46            android:name="com.google.android.gms.version"
+46-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leifo\.gradle\caches\transforms-2\files-2.1\8981d7a49a9becbb0516b1176e4ba918\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+47            android:value="@integer/google_play_services_version" />
+47-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\leifo\.gradle\caches\transforms-2\files-2.1\8981d7a49a9becbb0516b1176e4ba918\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+48    </application>
+49
+50</manifest>
